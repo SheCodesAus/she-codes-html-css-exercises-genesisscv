@@ -1,0 +1,32 @@
+body{
+    background-color: lavender;
+}
+
+#div-style{
+    background: peachpuff;
+
+}
+
+.list.item{
+    background-color: darkseagreen;
+}
+
+.main-heading{
+    background-color: lightskyblue;
+}
+
+#first-paragraph{
+
+}
+
+#first-item{
+    background-color: mediumpurple;
+}
+
+#second-item{
+    background-color: mediumpurple
+}
+
+#third-item{
+    background-color: gold;
+}

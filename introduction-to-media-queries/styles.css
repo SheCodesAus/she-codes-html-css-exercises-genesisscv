@@ -15,18 +15,33 @@ div {
 
 #div-1 {
     background-color: #9370db;
+    font-size: 40px;
 }
 
 #div-2 {
-    background-color: #8fbc8b;
+    background-color: #9370db;
 }
 
 #div-3 {
-    background-color: #6495ed;
+    background-color:#9370db;
 }
 
 #div-4 {
-    background-color: #f5deb3;
+    background-color:#9370db;
 }
 
 /*** Your code here ***/
+
+ @media (min-width: 500px) {
+    div {
+        display: inline-block;
+        width: 44%;
+    }
+} 
+
+@media (min-width: 900px) {
+    div{
+        display: inline-block;
+        width: 20%;
+    }
+}
