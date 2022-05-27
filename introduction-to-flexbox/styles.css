@@ -13,6 +13,12 @@ body {
     font-size: 1rem;
     font-weight: bold;
     height: calc(100% - 14px);
+    display: flex;
+    /* horizontal alignment */
+    justify-content: center;
+    flex-wrap: wrap;
+    /* vertical alignment */
+    align-content: center;
 }
 
 div {
@@ -21,3 +27,25 @@ div {
 }
 
 /*** Your code here ***/
+
+/* .demo-div{
+    flex-grow: 1;
+}
+ */
+
+ /* remember order does not change html structure */
+
+ #div-6{
+     flex-grow: 2;
+     order: 1;
+ }
+
+ #div-1{
+     flex-basis: 20%;
+     order: 2;
+ }
+
+ #div-2{
+     flex-basis: 200px;
+     order: 3;
+ }
