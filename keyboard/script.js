@@ -20,7 +20,11 @@ window.onload = function () {
     });
 }
 
-// start up to page 28
+// start 
+
+document.addEventListener('keydown', event => {
+    highlightLetter(event.key)
+});
 
 // end
 
@@ -28,5 +32,12 @@ window.onload = function () {
 function highlightLetter(letter) {
     // start
     console.log(letter)
+    let output = document.getElementById('output-text');
+    output.innerText = output.innerText + letter;
+    let key = document.getElementById(letter);
+    key.classList.toggle('selected');
+    setTimeout(function () {
+        key.classList.toggle('selected');
+    }, 150);
     // end
 }
